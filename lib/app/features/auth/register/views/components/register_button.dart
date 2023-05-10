@@ -7,7 +7,7 @@ class RegisterButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Get.toNamed('/home');
+        Get.toNamed('/main');
       },
       child: Container(
         margin: const EdgeInsets.only(top: 30),

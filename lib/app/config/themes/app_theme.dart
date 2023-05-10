@@ -12,6 +12,12 @@ class AppTheme {
         iconTheme: const IconThemeData(
           color: Color.fromRGBO(187, 193, 202, 1),
         ),
+        pageTransitionsTheme: const PageTransitionsTheme(
+          builders: <TargetPlatform, PageTransitionsBuilder>{
+            TargetPlatform.iOS: CupertinoPageTransitionsBuilder(),
+            TargetPlatform.android: CupertinoPageTransitionsBuilder(),
+          },
+        ),
       );
 
 // example :

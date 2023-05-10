@@ -8,7 +8,6 @@ import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:english_words/english_words.dart';
 import 'package:xiaoenai/app/constants/app_constants.dart';
-import 'package:xiaoenai/app/features/index/views/home_screen.dart';
 
 // controllers
 part '../controllers/register_controller.dart';

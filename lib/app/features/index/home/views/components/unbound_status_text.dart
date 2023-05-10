@@ -6,7 +6,7 @@ class UnboundStatusText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.only(top: 10),
+      padding: const EdgeInsets.only(top: 30),
       child: const Center(
         child: Text(
           '还差一步: 绑定另一半',

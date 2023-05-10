@@ -52,6 +52,8 @@ class ImageRasterPath {
   static const wcIconManSelect = "$_folderPath/wc_icon_man_select.png";
   static const wcIconWomenNormal = "$_folderPath/wc_icon_women_normal.png";
   static const wcIconWomenSelect = "$_folderPath/wc_icon_women_select.png";
+  static const bgWuCai= "$_folderPath/bg_wucai.png";
+  static const logo02= "$_folderPath/logo02.png";
 }
 
 class ImageVectorPath {
