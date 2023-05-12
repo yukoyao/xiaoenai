@@ -9,6 +9,7 @@ class BindCodeTextField extends StatelessWidget {
       margin: const EdgeInsets.only(top: 35.0, left: 50, right: 50),
       child: Center(
         child: TextField(
+          textInputAction: TextInputAction.none,
           cursorColor: Colors.black,
           cursorWidth: 0.6,
           decoration: InputDecoration(

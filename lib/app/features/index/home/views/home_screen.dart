@@ -39,34 +39,40 @@ class HomeScreen extends GetView<HomeController> {
       body: Material(
         child: Stack(
           children: [
-           ListView(
-             children: const [
-               // 顶部状态文字 - 未绑定状态下
-               UnboundStatusText(),
+            ListView(
+              children: [
+                // 顶部状态文字 - 未绑定状态下
+                const UnboundStatusText(),
 
-               // 剩余时间
-               UnboundRemainingTimeText(),
+                // 剩余时间
+                const UnboundRemainingTimeText(),
 
-               // 我的真爱码
-               MineCodeText(),
+                // 我的真爱码
+                const MineCodeText(),
 
-               // 真爱码输入框
-               BindCodeTextField(),
+                // 真爱码输入框
+                const BindCodeTextField(),
 
-               // 邀请对方下载
-               InviteDownloadButton(),
+                // 邀请对方下载
+                const InviteDownloadButton(),
 
-               // 完整功能提示文字
-               FullFunctionalityTipText(),
+                // 完整功能提示文字
+                const FullFunctionalityTipText(),
 
-               // 分类导航栏
-               HomeGridView(),
-             ],
-           ),
+                // 分类导航栏
+                const HomeGridView(),
 
-            // 底部跑马灯
-            HomeMarquee(
-              msgList: controller.winnerMsgList,
+                // 占位区域
+                SizedBox(
+                  height:
+                      MediaQuery.of(context).size.height * 0.25, // 动态计算占位区域的高度
+                ),
+
+                // 底部公告栏
+                HomeMarquee(
+                  msgList: controller.winnerMsgList,
+                ),
+              ],
             ),
           ],
         ),

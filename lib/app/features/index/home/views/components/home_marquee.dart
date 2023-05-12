@@ -60,12 +60,8 @@ class _HomeMarqueeState extends State<HomeMarquee>
 
   @override
   Widget build(BuildContext context) {
-    return Positioned(
-      top: null,
-      left: 17,
-      right: 17,
-      bottom: 14,
-      child: Container(
+    return Container(
+        margin: const EdgeInsets.only(left: 17, right: 17),
         decoration: BoxDecoration(
           color: const Color.fromRGBO(255, 235, 194, 1),
           borderRadius: BorderRadius.circular(kBorderRadius),
@@ -104,7 +100,6 @@ class _HomeMarqueeState extends State<HomeMarquee>
             ),
           ),
         ),
-      ),
     );
   }
 }

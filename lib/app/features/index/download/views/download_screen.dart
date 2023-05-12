@@ -47,7 +47,7 @@ class DownloadScreen extends GetView<DownloadController> {
               const DLDesc(),
 
               // 下载按钮
-              DLButton(onBtnPressed: controller.onBtnPressed()),
+              DLButton(onBtnPressed: controller.onBtnPressed),
             ],
           ),
         ),

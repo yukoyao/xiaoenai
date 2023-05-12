@@ -6,6 +6,7 @@ class MainBinding extends Bindings {
     Get.lazyPut(() => MainController());
     Get.lazyPut(() => HomeController());
     Get.lazyPut(() => DownloadController());
+    Get.lazyPut(() => ProfileController());
   }
 
 }

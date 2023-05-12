@@ -12,6 +12,7 @@ class MainController extends GetxController {
   final List<Widget> pages = [
     const HomeScreen(),
     const DownloadScreen(),
+    const ProfileScreen(),
   ];
 
 }

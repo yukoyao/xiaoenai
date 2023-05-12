@@ -8,8 +8,11 @@ class FontPath {
 
 class ImageAnimationPath {
   // Example:
-  // static const _folderPath = "assets/images/animation";
-  // static const myAnim = "$_folderPath/my_anim.json";
+  static const _folderPath = "assets/images/animation";
+  static const cuteTrashcan = "$_folderPath/cute-trashcan.json";
+  static const moodyGiraffe = "$_folderPath/moody-giraffe.json";
+  static const petiteGiraffe = "$_folderPath/petite-giraffe.json";
+  static const happyInternationalPolarBearDay = "$_folderPath/happy-international-polar-bear-day.json";
 }
 
 class ImageRasterPath {
@@ -54,6 +57,8 @@ class ImageRasterPath {
   static const wcIconWomenSelect = "$_folderPath/wc_icon_women_select.png";
   static const bgWuCai= "$_folderPath/bg_wucai.png";
   static const logo02= "$_folderPath/logo02.png";
+  static const iconSettingsMenu = "$_folderPath/icon_settings_menu.png";
+  static const close = "$_folderPath/close.png";
 }
 
 class ImageVectorPath {

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:xiaoenai/app/features/index/download/views/download_screen.dart';
 import 'package:xiaoenai/app/features/index/home/views/home_screen.dart';
+import 'package:xiaoenai/app/features/index/profile/dashboard/views/profile_screen.dart';
 
 // controllers
 part '../controllers/main_controller.dart';

@@ -5,6 +5,9 @@ import 'package:xiaoenai/app/features/auth/verify/views/verify_screen.dart';
 import 'package:xiaoenai/app/features/index/download/views/download_screen.dart';
 import 'package:xiaoenai/app/features/index/home/views/home_screen.dart';
 import 'package:xiaoenai/app/features/index/main/views/main_screen.dart';
+import 'package:xiaoenai/app/features/index/profile/dashboard/views/profile_screen.dart';
+import 'package:xiaoenai/app/features/index/profile/detail/views/profile_detail_screen.dart';
+import 'package:xiaoenai/app/features/index/profile/nickname_update/views/nickname_update_screen.dart';
 
 part 'app_routes.dart';
 
@@ -41,6 +44,21 @@ class AppPages {
       name: _Path.download,
       page: () => const DownloadScreen(),
       binding: DownloadBinding(),
+    ),
+    GetPage(
+      name: _Path.profile,
+      page: () => const ProfileScreen(),
+      binding: ProfileBinding(),
+    ),
+    GetPage(
+      name: _Path.profileDetail,
+      page: () => const ProfileDetailScreen(),
+      binding: ProfileDetailBinding(),
+    ),
+    GetPage(
+      name: _Path.nicknameUpdate,
+      page: () => const NicknameUpdateScreen(),
+      binding: NicknameUpdateBindings(),
     ),
   ];
 }
